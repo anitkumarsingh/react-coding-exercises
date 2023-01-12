@@ -1,5 +1,11 @@
+import MainRoute from './router';
+
 const App = () => {
-	return <div>Hello WOrld</div>;
+	return (
+		<>
+			<MainRoute />
+		</>
+	);
 };
 
 export default App;
